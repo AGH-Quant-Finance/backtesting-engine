@@ -1,0 +1,7 @@
+.clangd
+.editorconfig
+.clang-tidy
+.clang-format
+.gitattributes
+
+docs-site/
