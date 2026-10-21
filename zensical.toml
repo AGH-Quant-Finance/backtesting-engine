@@ -1,0 +1,52 @@
+[project]
+site_name = "Backtesting Engine Documentation"
+site_description = "Official documentation of AGH Quant Finance's Backtesting Engine"
+site_author = "AGH Quant Finance"
+docs_dir = "docs"
+site_dir = "docs-site"
+repo_url = "https://github.com/AGH-Quant-Finance/backtesting-engine"
+repo_name = "AGH-Quant-Finance/backtesting-engine"
+
+nav = [
+    {"Home" = "index.md"}
+]
+
+[project.theme]
+language = "en"
+logo = "img/logo.png"
+features = [
+  "header.autohide",
+  "navigation.footer",
+  "navigation.instant",
+  "navigation.instant.progress",
+  "navigation.tracking",
+  "navigation.expand",
+  "navigation.path",
+  "navigation.indexes",
+  "toc.follow",
+  "toc.integrate",
+  "navigation.top",
+]
+
+[[project.theme.palette]]
+media = "(prefers-color-scheme: light)"
+scheme = "default"
+toggle.icon = "lucide/sun"
+toggle.name = "Switch to dark mode"
+
+[[project.theme.palette]]
+media = "(prefers-color-scheme: dark)"
+scheme = "slate"
+toggle.icon = "lucide/moon"
+toggle.name = "Switch to light mode"
+
+[[project.extra.social]]
+icon = "fontawesome/brands/linkedin"
+link = "https://www.linkedin.com/company/quant-finance-agh/"
+
+[[project.extra.social]]
+icon = "fontawesome/brands/github"
+link = "https://github.com/AGH-Quant-Finance"
+
+[project.extra]
+generator = false
