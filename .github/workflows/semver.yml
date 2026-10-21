@@ -1,0 +1,10 @@
+on:
+  push:
+    branches: [main]
+
+permissions:
+  contents: write
+
+jobs:
+  semver:
+    uses: AGH-Quant-Finance/cpp-common/.github/workflows/semver.yml@v0.1.1
