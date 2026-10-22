@@ -5,3 +5,4 @@
 .gitattributes
 
 docs-site/
+.cache/

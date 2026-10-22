@@ -8,7 +8,14 @@ repo_url = "https://github.com/AGH-Quant-Finance/backtesting-engine"
 repo_name = "AGH-Quant-Finance/backtesting-engine"
 
 nav = [
-    {"Home" = "index.md"}
+    { "Home" = "index.md" },
+    { "Table of Contents" = "table-of-contents.md" },
+    { "System Modules" = [
+        { "Matching Engine" = [
+            "system-modules/matching-engine/index.md",
+            { "Order Book" = "system-modules/matching-engine/order-book.md" },
+        ] },
+    ] },
 ]
 
 [project.theme]
@@ -24,7 +31,6 @@ features = [
   "navigation.path",
   "navigation.indexes",
   "toc.follow",
-  "toc.integrate",
   "navigation.top",
 ]
 
