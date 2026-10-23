@@ -2,4 +2,4 @@
 
 ## System modules
 
-- [Matching Engine](./system-modules/matching-engine.md)
+- [Matching Engine](./system-modules/matching-engine/index.md)

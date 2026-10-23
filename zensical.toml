@@ -7,6 +7,7 @@ site_dir = "docs-site"
 repo_url = "https://github.com/AGH-Quant-Finance/backtesting-engine"
 repo_name = "AGH-Quant-Finance/backtesting-engine"
 
+
 nav = [
     { "Home" = "index.md" },
     { "Table of Contents" = "table-of-contents.md" },
@@ -14,6 +15,7 @@ nav = [
         { "Matching Engine" = [
             "system-modules/matching-engine/index.md",
             { "Order Book" = "system-modules/matching-engine/order-book.md" },
+            { "Matching Loop" = "system-modules/matching-engine/matching-loop.md" },
         ] },
     ] },
 ]
@@ -56,3 +58,8 @@ link = "https://github.com/AGH-Quant-Finance"
 
 [project.extra]
 generator = false
+
+[project.markdown_extensions]
+pymdownx.superfences.custom_fences = [
+    { name = "mermaid", class = "mermaid", format = "pymdownx.superfences.fence_code_format" },
+]
